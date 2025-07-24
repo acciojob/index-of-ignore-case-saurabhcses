@@ -1,11 +1,10 @@
 function indexOfIgnoreCase(s1, s2) {
- const lowerStr = str.toLowerCase();
+ const lowerStr = s1.toLowerCase();
 
-  const lowerSubStr = subStr.toLowerCase();
+  const lowerSubStr = s2.toLowerCase();
 	  return lowerStr.indexOf(lowerSubStr);
  
 }
-
 // Please do not change the code below
 const s1 = prompt("Enter s1:");
 const s2 = prompt("Enter s2:");
